@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        File file = new File("src/main/java/task2/file.txt");
-        File json = new File("src/main/java/task2/user.json");
+        File file = new File("src/main/resources/users.txt");
+        File json = new File("src/main/resources/user.json");
 
         ArrayList<User> users = readUsersFromFile(file);
         convertUsersToJson(users, json);

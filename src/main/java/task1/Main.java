@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
-        File file = new File("src/main/java/task1/file.txt");
+        File file = new File("src/main/resources/numbers.txt");
         String[] phoneNumbers = { "987-123-4567", "123 456 7890", "(123) 456-7890", "987 123-4567", "(123)-456-7890" };
 
         writePhoneNumbersToFile(phoneNumbers, file);

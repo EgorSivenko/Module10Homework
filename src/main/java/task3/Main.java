@@ -6,7 +6,7 @@ import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) {
-        File file = new File("src/main/java/task3/words.txt");
+        File file = new File("src/main/resources/words.txt");
 
         TreeMap<String, Integer> wordsFrequency = convertToTreeMap(getWordsFrequency(readWordsFromFile(file)));
         System.out.println(wordsFrequency);
